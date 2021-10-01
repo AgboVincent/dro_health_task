@@ -1,0 +1,43 @@
+name: dro_health_task
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_splash_screen: ^1.0.1+2
+  provider: ^5.0.0
+  sqflite: ^2.0.0+4  
+  intl: ^0.17.0
+  shared_preferences: ^2.0.6
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^7.1.0
+  equatable: ^2.0.3
+  hexcolor: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+
+
+
+  fonts:
+    - family: Proxima Nova
+      fonts:
+        - asset: fonts/ProximaNova-Regular.otf
+        - asset: fonts/Proxima Nova Bold.otf
+        - asset: fonts/Proxima Nova Alt Light.otf
+        - asset: fonts/Roboto-Regular.ttf
